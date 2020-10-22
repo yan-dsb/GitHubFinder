@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
+import finderBackground from '../assets/finderBackground.png';
 
 export default createGlobalStyle`
   *{
@@ -9,7 +10,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: #F0F0F5;
+    background: #F0F0F5 url(${finderBackground}) no-repeat 60% top;
     -webkit-font-smoothing: antialiased;
   }
   body, input, button{
