@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2020": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -39,7 +39,9 @@
         }
       ],
       "no-use-before-define": "off",
-      "@typescript-eslint/no-use-before-define": ["error"]
+      "@typescript-eslint/no-use-before-define": ["error"],
+      "camelcase": "off",
+      "react/jsx-one-expression-per-line": "off"
     },
     "settings": {
       "import/resolver": {

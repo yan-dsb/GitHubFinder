@@ -9,7 +9,8 @@ const Logo: React.FC = () => {
       <a href="/">
         <img src={logoFinder} alt="GitHub Finder" />
         <p>
-          GitHub <strong>Finder</strong>
+          GitHub
+          <strong> Finder</strong>
         </p>
       </a>
     </Icon>
